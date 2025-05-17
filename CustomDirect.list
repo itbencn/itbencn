@@ -13,3 +13,19 @@
 ##- DOMAIN-REGEX,^abc.*com,PROXY #正则匹配域名
 ##- RULE-SET,providername,PROXY #匹配规则集
 
+# 私人专用
+- IP-CIDR,100.64.0.0/24,no-resolve
+- IP-CIDR,10.0.10.0/24,no-resolve
+- IP-CIDR,192.168.0.0/24,no-resolve
+- IP-CIDR,192.168.1.0/24,no-resolve
+- IP-CIDR,192.168.3.0/24,no-resolve
+- IP-CIDR,192.168.5.0/24,no-resolve
+- IP-CIDR,192.168.30.0/24,no-resolve
+- IP-CIDR,192.168.31.0/24,no-resolve
+
+
+# 通用规则
+- DOMAIN-SUFFIX,itben.cn
+- PROCESS-NAME,tailscaled
+- DOMAIN-SUFFIX,tailscale.com
+- PROCESS-NAME,adguardhome
