@@ -1,4 +1,5 @@
-# 自定义代理列表
+# 自定义代理列表(手动选择)
+
 
 # PROCESS-NAME,curl #匹配路由自身进程(curl直连)
 # DOMAIN-SUFFIX,google.com #匹配域名后缀(交由Proxy代理服务器组)
@@ -41,4 +42,3 @@ DOMAIN-SUFFIX,ssdun.cn
 DOMAIN-SUFFIX,ddun.com
 DOMAIN-SUFFIX,hncloud.com
 DOMAIN-SUFFIX,lanmicloud.com
-
