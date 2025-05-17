@@ -1,74 +1,64 @@
-# 自定义代理列表
+# 自定义代理列(长期代理)
 
-##- PROCESS-NAME,curl,DIRECT #匹配路由自身进程(curl直连)
-##- DOMAIN-SUFFIX,google.com,Proxy #匹配域名后缀(交由Proxy代理服务器组)
-##- DOMAIN-KEYWORD,google,Proxy #匹配域名关键字(交由Proxy代理服务器组)
-##- DOMAIN,google.com,Proxy #匹配域名(交由Proxy代理服务器组)
-##- DOMAIN-SUFFIX,ad.com,REJECT #匹配域名后缀(拒绝)
-##- IP-CIDR,127.0.0.0/8,DIRECT #匹配数据目标IP(直连)
-##- SRC-IP-CIDR,192.168.1.201/32,DIRECT #匹配数据发起IP(直连)
-##- DST-PORT,80,DIRECT #匹配数据目标端口(直连)
-##- SRC-PORT,7777,DIRECT #匹配数据源端口(直连)
-##- GEOSITE,category-public-tracker,DIRECT #匹配GEOSITE数据库规则(直连)
-##- DOMAIN-REGEX,^abc.*com,PROXY #正则匹配域名
-##- RULE-SET,providername,PROXY #匹配规则集
+
+# PROCESS-NAME,curl #匹配路由自身进程(curl直连)
+# DOMAIN-SUFFIX,google.com #匹配域名后缀(交由Proxy代理服务器组)
+# DOMAIN-KEYWORD,google #匹配域名关键字(交由Proxy代理服务器组)
+# DOMAIN,google.com #匹配域名(交由Proxy代理服务器组)
+# DOMAIN-SUFFIX,ad.com #匹配域名后缀(拒绝)
+# IP-CIDR,127.0.0.0/8 #匹配数据目标IP(直连)
+# SRC-IP-CIDR,192.168.1.201/32 #匹配数据发起IP(直连)
+# DST-PORT,80 #匹配数据目标端口(直连)
+# SRC-PORT,7777 #匹配数据源端口(直连)
+# GEOSITE,category-public-tracker #匹配GEOSITE数据库规则(直连)
+# DOMAIN-REGEX,^abc.*com #正则匹配域名
+# RULE-SET,providername #匹配规则集
+
 
 # 私人专用
-- SRC-IP-CIDR,10.0.10.145/32
+SRC-IP-CIDR,10.0.10.145/32
 
 
 # 通用规则
-- DOMAIN-SUFFIX,openwrt.ai
-- DOMAIN-SUFFIX,newszfang.vip
+DOMAIN-KEYWORD,byboy
+DOMAIN-SUFFIX,openwrt.ai
 
-# easyclick
-# - DOMAIN-SUFFIX,ieasyclick.com
-
-# tencent
-# - DOMAIN,sg.captcha.qcloud.com
-
-# server
-- DOMAIN-SUFFIX,qy.cn
-- DOMAIN-SUFFIX,ssdun.cn
-- DOMAIN-SUFFIX,ddun.com
-- DOMAIN-SUFFIX,hncloud.com
-- DOMAIN-SUFFIX,lanmicloud.com
+# wehotel
+DOMAIN-SUFFIX,jjhuiyuan.top
 
 # tool
-- DOMAIN-SUFFIX,proxifier.com
-- DOMAIN-SUFFIX,tortoisegit.org
-- DOMAIN-SUFFIX,charlesproxy.com
+DOMAIN-SUFFIX,proxifier.com
+DOMAIN-SUFFIX,tortoisegit.org
+DOMAIN-SUFFIX,charlesproxy.com
 
 # coin
-- DOMAIN-SUFFIX,etherscan.com
-- DOMAIN-SUFFIX,tronscan.io
-- DOMAIN-SUFFIX,tronscanapi.com
-- DOMAIN-SUFFIX,tronscan.org
-- DOMAIN-SUFFIX,token.im
-- DOMAIN-SUFFIX,imkey.im
-- DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,etherscan.com
+DOMAIN-SUFFIX,tronscan.io
+DOMAIN-SUFFIX,tronscanapi.com
+DOMAIN-SUFFIX,tronscan.org
+DOMAIN-SUFFIX,token.im
+DOMAIN-SUFFIX,imkey.im
+DOMAIN-SUFFIX,okx.com
 
 # justmysocks
-- DOMAIN-SUFFIX,jmssub.net
-- DOMAIN-SUFFIX,justmysocks.net
-- DOMAIN-SUFFIX,justmysocks1.net
-- DOMAIN-SUFFIX,justmysocks2.net
-- DOMAIN-SUFFIX,justmysocks3.net
-- DOMAIN-SUFFIX,justmysocks4.net
+DOMAIN-SUFFIX,jmssub.net
+DOMAIN-SUFFIX,justmysocks.net
+DOMAIN-SUFFIX,justmysocks1.net
+DOMAIN-SUFFIX,justmysocks2.net
+DOMAIN-SUFFIX,justmysocks3.net
+DOMAIN-SUFFIX,justmysocks4.net
 # miaomiaowu
-- DOMAIN-SUFFIX,miaomiaowu114514.icu
-- DOMAIN-SUFFIX,miaomiaowu114514.xyz
-- DOMAIN-SUFFIX,miaomiaowu1.xyz
-- DOMAIN-SUFFIX,114514miaomiaowu.com
-- DOMAIN-SUFFIX,114514house.com
+DOMAIN-SUFFIX,miaomiaowu114514.icu
+DOMAIN-SUFFIX,miaomiaowu114514.xyz
+DOMAIN-SUFFIX,miaomiaowu1.xyz
+DOMAIN-SUFFIX,114514miaomiaowu.com
+DOMAIN-SUFFIX,114514house.com
 # cherryvpn
-- DOMAIN-SUFFIX,cherryvpn.net
-- DOMAIN-SUFFIX,chyvpn.cyou
-- DOMAIN-SUFFIX,chynet.net
-- DOMAIN-SUFFIX,chyss.one
+DOMAIN-SUFFIX,cherryvpn.net
+DOMAIN-SUFFIX,chyvpn.cyou
+DOMAIN-SUFFIX,chynet.net
+DOMAIN-SUFFIX,chyss.one
 # kaochang
-- DOMAIN-SUFFIX,kaochang.ltd
-- DOMAIN-SUFFIX,kaochangsubscribe.xyz
-- DOMAIN-SUFFIX,kc.abc8848.com
-
-
+DOMAIN-SUFFIX,kaochang.ltd
+DOMAIN-SUFFIX,kaochangsubscribe.xyz
+DOMAIN-SUFFIX,kc.abc8848.com
