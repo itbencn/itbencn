@@ -13,3 +13,62 @@
 ##- DOMAIN-REGEX,^abc.*com,PROXY #正则匹配域名
 ##- RULE-SET,providername,PROXY #匹配规则集
 
+# 私人专用
+- SRC-IP-CIDR,10.0.10.145/32
+
+
+# 通用规则
+- DOMAIN-SUFFIX,openwrt.ai
+- DOMAIN-SUFFIX,newszfang.vip
+
+# easyclick
+# - DOMAIN-SUFFIX,ieasyclick.com
+
+# tencent
+# - DOMAIN,sg.captcha.qcloud.com
+
+# server
+- DOMAIN-SUFFIX,qy.cn
+- DOMAIN-SUFFIX,ssdun.cn
+- DOMAIN-SUFFIX,ddun.com
+- DOMAIN-SUFFIX,hncloud.com
+- DOMAIN-SUFFIX,lanmicloud.com
+
+# tool
+- DOMAIN-SUFFIX,proxifier.com
+- DOMAIN-SUFFIX,tortoisegit.org
+- DOMAIN-SUFFIX,charlesproxy.com
+
+# coin
+- DOMAIN-SUFFIX,etherscan.com
+- DOMAIN-SUFFIX,tronscan.io
+- DOMAIN-SUFFIX,tronscanapi.com
+- DOMAIN-SUFFIX,tronscan.org
+- DOMAIN-SUFFIX,token.im
+- DOMAIN-SUFFIX,imkey.im
+- DOMAIN-SUFFIX,okx.com
+
+# justmysocks
+- DOMAIN-SUFFIX,jmssub.net
+- DOMAIN-SUFFIX,justmysocks.net
+- DOMAIN-SUFFIX,justmysocks1.net
+- DOMAIN-SUFFIX,justmysocks2.net
+- DOMAIN-SUFFIX,justmysocks3.net
+- DOMAIN-SUFFIX,justmysocks4.net
+# miaomiaowu
+- DOMAIN-SUFFIX,miaomiaowu114514.icu
+- DOMAIN-SUFFIX,miaomiaowu114514.xyz
+- DOMAIN-SUFFIX,miaomiaowu1.xyz
+- DOMAIN-SUFFIX,114514miaomiaowu.com
+- DOMAIN-SUFFIX,114514house.com
+# cherryvpn
+- DOMAIN-SUFFIX,cherryvpn.net
+- DOMAIN-SUFFIX,chyvpn.cyou
+- DOMAIN-SUFFIX,chynet.net
+- DOMAIN-SUFFIX,chyss.one
+# kaochang
+- DOMAIN-SUFFIX,kaochang.ltd
+- DOMAIN-SUFFIX,kaochangsubscribe.xyz
+- DOMAIN-SUFFIX,kc.abc8848.com
+
+
