@@ -34,3 +34,8 @@ PROCESS-NAME,tailscaled
 DOMAIN-KEYWORD,tailscale
 DOMAIN-SUFFIX,tailscale.com
 PROCESS-NAME,adguardhome
+
+DOMAIN-SUFFIX,huatools.com
+DOMAIN-SUFFIX,ip138.com
+DOMAIN-SUFFIX,ip111.com
+
