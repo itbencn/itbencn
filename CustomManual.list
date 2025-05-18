@@ -31,10 +31,10 @@ DOMAIN-SUFFIX,haozhuma.cn
 DOMAIN-SUFFIX,haozhuma.com
 
 # easyclick
-# DOMAIN-SUFFIX,ieasyclick.com
+DOMAIN-SUFFIX,ieasyclick.com
 
 # tencent
-# DOMAIN,sg.captcha.qcloud.com
+DOMAIN,sg.captcha.qcloud.com
 
 # server
 DOMAIN-SUFFIX,qy.cn
