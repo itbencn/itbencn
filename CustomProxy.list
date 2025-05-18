@@ -20,6 +20,8 @@ SRC-IP-CIDR,10.0.10.145/32
 
 
 # 通用规则
+DOMAIN,us.ip111.cn
+DOMAIN-KEYWORD,sspanel.net
 DOMAIN-KEYWORD,byboy
 DOMAIN-SUFFIX,openwrt.ai
 
