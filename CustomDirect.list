@@ -24,8 +24,8 @@ IP-CIDR,192.168.3.0/24,no-resolve
 IP-CIDR,192.168.5.0/24,no-resolve
 IP-CIDR,192.168.30.0/24,no-resolve
 IP-CIDR,192.168.31.0/24,no-resolve
-IP-CIDR,101.33.209.67,no-resolve
-IP-CIDR,113.207.49.103,no-resolve
+IP-CIDR,101.33.209.67/32,no-resolve
+IP-CIDR,113.207.49.103/32,no-resolve
 
 
 # 通用规则
