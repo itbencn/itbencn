@@ -15,7 +15,7 @@
 # RULE-SET,providername #匹配规则集
 
 
-# 私人专用
+# 开发环境
 SRC-IP-CIDR,10.0.10.145/32
 
 
