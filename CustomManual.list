@@ -15,6 +15,9 @@
 # RULE-SET,providername #匹配规则集
 
 
+# 测试环境
+SRC-IP-CIDR,10.0.10.146/32
+
 # sms sifang
 DOMAIN-SUFFIX,newszfang.vip
 # sms taxin
