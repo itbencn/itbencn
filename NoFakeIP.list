@@ -26,3 +26,5 @@ DOMAIN-SUFFIX,mijia.tech
 
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
+
+DOMAIN-KEYWORD,tailscale
