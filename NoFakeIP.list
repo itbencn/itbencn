@@ -42,3 +42,6 @@ DOMAIN-SUFFIX,ntp.tencent.com
 DOMAIN-SUFFIX,ntp.ntsc.ac.cn
 DOMAIN-SUFFIX,cn.ntp.org.cn
 
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,services.googleapis.cn
+
