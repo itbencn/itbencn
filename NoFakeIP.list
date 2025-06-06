@@ -30,3 +30,15 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 
 DOMAIN-KEYWORD,tailscale
+
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+
+DOMAIN-REGEX,time.*.com
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN-SUFFIX,ntp.aliyun.com
+DOMAIN-SUFFIX,ntp1.aliyun.com
+DOMAIN-SUFFIX,ntp.tencent.com
+DOMAIN-SUFFIX,ntp.ntsc.ac.cn
+DOMAIN-SUFFIX,cn.ntp.org.cn
+
