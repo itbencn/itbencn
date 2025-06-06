@@ -44,6 +44,8 @@ DOMAIN-SUFFIX,imkey.im
 DOMAIN-SUFFIX,okx.com
 
 # justmysocks
+DOMAIN-KEYWORD,jmssub
+DOMAIN-KEYWORD,justmysocks
 DOMAIN-SUFFIX,jmssub.net
 DOMAIN-SUFFIX,justmysocks.net
 DOMAIN-SUFFIX,justmysocks1.net
@@ -51,17 +53,21 @@ DOMAIN-SUFFIX,justmysocks2.net
 DOMAIN-SUFFIX,justmysocks3.net
 DOMAIN-SUFFIX,justmysocks4.net
 # miaomiaowu
+DOMAIN-KEYWORD,miaomiaowu
 DOMAIN-SUFFIX,miaomiaowu114514.icu
 DOMAIN-SUFFIX,miaomiaowu114514.xyz
 DOMAIN-SUFFIX,miaomiaowu1.xyz
 DOMAIN-SUFFIX,114514miaomiaowu.com
 DOMAIN-SUFFIX,114514house.com
+DOMAIN-SUFFIX,miaomiaowureverseproxy.top
 # cherryvpn
+DOMAIN-KEYWORD,chyvpn
 DOMAIN-SUFFIX,cherryvpn.net
 DOMAIN-SUFFIX,chyvpn.cyou
 DOMAIN-SUFFIX,chynet.net
 DOMAIN-SUFFIX,chyss.one
 # kaochang
+DOMAIN-KEYWORD,kaochang
 DOMAIN-SUFFIX,kaochang.ltd
 DOMAIN-SUFFIX,kaochangsubscribe.xyz
 DOMAIN-SUFFIX,kc.abc8848.com
