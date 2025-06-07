@@ -24,6 +24,7 @@ DOMAIN,us.ip111.cn
 DOMAIN-KEYWORD,sspanel.net
 DOMAIN-KEYWORD,byboy
 DOMAIN-SUFFIX,openwrt.ai
+DOMAIN-SUFFIX,metacubex.one
 
 # wehotel
 DOMAIN-SUFFIX,jjhuiyuan.top
@@ -62,6 +63,7 @@ DOMAIN-SUFFIX,114514house.com
 DOMAIN-SUFFIX,miaomiaowureverseproxy.top
 # cherryvpn
 DOMAIN-KEYWORD,chyvpn
+DOMAIN-KEYWORD,cherryvpn
 DOMAIN-SUFFIX,cherryvpn.net
 DOMAIN-SUFFIX,chyvpn.cyou
 DOMAIN-SUFFIX,chynet.net
