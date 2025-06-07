@@ -14,6 +14,8 @@
 # DOMAIN-REGEX,^abc.*com #正则匹配域名
 # RULE-SET,providername #匹配规则集
 
++.itben.cn
+
 +,mi.cn
 +,mi.com
 +,miui.cn
@@ -26,8 +28,6 @@
 
 +,apple.com
 +,icloud.com
-
-+.itben.cn
 
 PROCESS-NAME,tailscaled
 DOMAIN-KEYWORD,tailscale
