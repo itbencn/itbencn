@@ -16,18 +16,18 @@
 
 +.itben.cn
 
-+,mi.cn
-+,mi.com
-+,miui.cn
-+,miui.com
-+,xiaomi.cn
-+,xiaomi.com
-+,xiaomi.net
-+,miwifi.com
-+,mijia.tech
++.mi.cn
++.mi.com
++.miui.cn
++.miui.com
++.xiaomi.cn
++.xiaomi.com
++.xiaomi.net
++.miwifi.com
++.mijia.tech
 
-+,apple.com
-+,icloud.com
++.apple.com
++.icloud.com
 
 PROCESS-NAME,tailscaled
 DOMAIN-KEYWORD,tailscale
