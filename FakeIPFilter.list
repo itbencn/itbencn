@@ -14,6 +14,8 @@
 # DOMAIN-REGEX,^abc.*com #正则匹配域名
 # RULE-SET,providername #匹配规则集
 
+# test
+
 +.itben.cn
 
 +.mi.cn
